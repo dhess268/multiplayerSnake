@@ -2,7 +2,7 @@ const server = require('http').createServer()
 const cors = require('cors')
 const io = require('socket.io')(server, {
     cors: {
-        origin: 'http://localhost:8080',
+        origin: 'https://stark-lake-04888.herokuapp.com/',
         methods: ['GET', 'POST']
     }
 })
