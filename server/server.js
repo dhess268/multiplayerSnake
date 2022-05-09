@@ -2,7 +2,7 @@ const server = require('http').createServer()
 const cors = require('cors')
 const io = require('socket.io')(server, {
     cors: {
-        origin: 'https://serene-atoll-03389.herokuapp.com/',
+        origin: 'https://mycorsproxy-dill.herokuapp.com/https://serene-atoll-03389.herokuapp.com/',
         methods: ['GET', 'POST']
     }
 })
