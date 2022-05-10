@@ -2,6 +2,7 @@ const BG_COLOUR = '#231f20';
 const SNAKE_COLOUR = '#c2c2c2';
 const FOOD_COLOUR = '#e66916';
 
+
 const socket = io('https://mycorsproxy-dill.herokuapp.com/https://serene-atoll-03389.herokuapp.com/');
 
 socket.on('init', handleInit);
